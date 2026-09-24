@@ -1,6 +1,6 @@
 # Политика конфиденциальности «Копеечки»
 
-*Редакция от 22 сентября 2026 года.*
+*Редакция от 24 сентября 2026 года.*
 
 «Копеечка» — приложение для учёта личных и семейных финансов. У приложения
 **нет своего сервера**: разработчик не получает, не хранит и не видит ваши данные.
@@ -51,10 +51,27 @@
 
 **Чеки по QR-коду** разбираются на телефоне и никуда не отправляются.
 
+**Голосовой ввод.** Кнопка «Голосом» использует системное распознавание речи
+телефона. Приложение получает только распознанный текст и разбирает его на телефоне.
+Сама система (обычно Google) может обрабатывать звук на своих серверах по своим
+правилам; если это важно, не пользуйтесь кнопкой или включите в настройках телефона
+распознавание без интернета.
+
+**Отчёт в PDF и выгрузка из других приложений.** PDF собирается на телефоне и уходит
+туда, куда вы сами отправите его через «Поделиться». Файлы CoinKeeper, Monefy и
+Дзен-мани читаются на телефоне и никуда не отправляются.
+
+**Подсказки** — прогноз до зарплаты, итоги недели, рост трат, похожие на подписки
+списания — считаются на телефоне, без интернета.
+
 ## Разрешения
 
 - **Интернет** — для резервных копий, ИИ-советника и общего бюджета.
-- **Уведомления** — для вечернего напоминания, если вы его включили.
+- **Уведомления** — для вечернего напоминания, напоминаний о платежах и подсказок
+  (итоги недели, рост трат). Если включены замок или «скрыть суммы», сумм в
+  уведомлениях нет.
+- **Отпечаток или лицо** — только если вы включите вход по отпечатку. Проверку
+  выполняет система, приложение получает только ответ «да» или «нет».
 - **Камера и фото** — приложение не запрашивает доступ к камере напрямую: снимок
   делает системная камера, фото выбирается системным окном, и приложению передаётся
   только выбранный снимок.
@@ -112,7 +129,15 @@ Data leaves the phone only when you turn on a feature that needs it:
 - **Shared budget** sends your accounts and operations to the other member through the
   storage you chose (your Google Drive, your WebDAV server) or directly over your local
   network. Drafts, SMS rules and keys are not shared.
-- **CSV export** is saved where you choose.
+- **CSV export** is saved where you choose. **PDF reports** go wherever you share them.
+- **Voice input** uses the phone's system speech recognition. The app only receives the
+  recognised text; the system (usually Google) may process the audio on its servers under
+  its own terms.
+
+Insights (payday forecast, weekly summary, spending spikes, subscription hints) are
+calculated on the phone. With the app lock or "hide amounts" on, notifications carry no
+amounts. Fingerprint or face unlock is checked by the system; the app only gets yes or no.
+Files exported from CoinKeeper, Monefy and Zenmoney are read on the phone.
 
 The app does not request camera access directly: photos come from the system camera or
 picker; receipt QR codes are read on the phone. Bank SMS reading is off by default. You enable it in the settings after an explanation
