@@ -21,6 +21,12 @@
   <img src="screenshots/currencies.png" width="30%" alt="Валюты и курсы">
 </p>
 
+<p align="center">
+  <img src="screenshots/property.png" width="30%" alt="Имущество">
+  <img src="screenshots/asset-card.png" width="30%" alt="Карточка имущества">
+  <img src="screenshots/calculator.png" width="30%" alt="Калькулятор в сумме операции">
+</p>
+
 ---
 
 ## Одна покупка — навсегда
@@ -50,18 +56,26 @@
   аналитики и трекеров. PIN-код, вход по отпечатку, «скрыть суммы» и копии под паролем.
 - 💡 **Подсказывает само.** Хватит ли денег до зарплаты, где траты выросли, какие
   списания похожи на подписки — без интернета и без ИИ.
-- 🎨 **Три темы** — «Чертёж», «Спокойная» и «Неон», светлые и тёмные, и отдельная настройка
-  размера текста.
-- 🌐 **Пять языков**: русский, английский, туркменский, узбекский и казахский.
+- 🏠 **Весь капитал, а не только счета.** Квартира, машина, техника — по оценке, с
+  подсказкой износа, кредитом и стоимостью владения в месяц.
+- 🎨 **Три темы и четыре палитры** — «Чертёж», «Спокойная» и «Неон», светлые и тёмные;
+  палитры графит и золото, сапфир, изумруд, мокко; отдельная настройка размера текста.
+- 🌐 **Шесть языков**: русский, английский, туркменский, узбекский, казахский и турецкий.
 
 ## Что умеет
 
-**Деньги.** Карты, наличные, накопления, вклады и золото в граммах в общем итоге. 70 мировых
-валют и свои собственные, официальные курсы ЦБ России, Нацбанка Казахстана и ЦБ Узбекистана
-одной кнопкой. Регулярные платежи с напоминанием, долги, цели и модуль «Бизнес»: заказы,
-клиенты, прайс, выручка и маржа.
+**Деньги.** Карты, наличные, накопления, вклады и золото в граммах в общем итоге; кошелёк
+в нескольких валютах одной карточкой. 70 мировых валют и свои собственные, официальные курсы
+ЦБ России, Нацбанка Казахстана, ЦБ Узбекистана и ЦБ Турции одной кнопкой. Калькулятор прямо
+в поле суммы и комиссия банка по карте, которая считается сама. Регулярные платежи с
+напоминанием, долги и модуль «Бизнес»: заказы, клиенты, прайс, выручка и маржа.
 
-**Без ручного ввода.** Банковские СМС и уведомления, QR-код с чека (без интернета), выписка
+**Цели и имущество.** Копите на цель, а когда она осуществится — покупка попадёт в расходы
+своей категории, не съедая месячный лимит. Имущество: сколько вложено, сколько стоит сейчас,
+результат продажи и во что обходится владение в месяц; ипотеку или автокредит можно привязать.
+
+**Без ручного ввода.** Настройка за две минуты или перенос из CoinKeeper, Monefy и Дзен-мани.
+Банковские СМС и уведомления, QR-код с чека (без интернета), выписка
 банка в CSV, фото чека через ИИ по вашему ключу, шаблоны частых трат в одно касание, запись
 голосом, виджет на рабочий стол. Всё найденное сначала попадает на экран «На проверку» —
 в деньги ничего не пишется без вашего подтверждения.
@@ -100,11 +114,14 @@ future updates are part of the purchase.
 - Hands-free input: bank SMS (with your permission) and notifications, receipt QR codes, bank
   statement CSV and AI receipt photos, all landing in a review queue first.
 - A shared budget for two over Google Drive, WebDAV or directly over Wi-Fi.
-- Budgets, reports, goals with deadlines, debts, recurring payments and a small-business module.
+- Multi-currency wallets, a calculator in the amount field and automatic card bank fees.
+- Budgets, reports, goals that end in a real purchase, property with wear, loans and cost
+  of ownership, debts, recurring payments and a small-business module.
 - Insights on the phone: will the money last until payday, where spending jumped, which
   charges look like subscriptions, net worth by month.
 - A PIN and fingerprint lock, hide amounts with one tap, password-protected backups.
-- AI advisor on your own key. Three themes and a text size setting. Five languages.
+- AI advisor on your own key. Three themes, four colour palettes and a text size setting.
+- Six languages: Russian, English, Turkmen, Uzbek, Kazakh and Turkish.
 
 [Get it on Google Play](https://play.google.com/store/apps/details?id=com.arassanusga.kopeechka) ·
 [Privacy policy](PRIVACY.md#privacy-policy-english) · [Support](SUPPORT.md#english)

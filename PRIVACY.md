@@ -1,6 +1,6 @@
 # Политика конфиденциальности «Копеечки»
 
-*Редакция от 24 сентября 2026 года.*
+*Редакция от 2 октября 2026 года.*
 
 «Копеечка» — приложение для учёта личных и семейных финансов. У приложения
 **нет своего сервера**: разработчик не получает, не хранит и не видит ваши данные.
@@ -41,7 +41,8 @@
 **Экспорт CSV.** Файл сохраняется туда, куда вы укажете в системном диалоге.
 
 **Курсы валют.** По кнопке «Официальные курсы» приложение запрашивает курсы с сайта
-Банка России, Национального банка Казахстана или Центрального банка Узбекистана.
+Банка России, Национального банка Казахстана, Центрального банка Узбекистана или
+Центрального банка Турецкой Республики.
 Ваших данных в этом запросе нет.
 
 **Проверка покупки.** Приложение платное и распространяется через Google Play.
@@ -54,8 +55,21 @@
 **Голосовой ввод.** Кнопка «Голосом» использует системное распознавание речи
 телефона. Приложение получает только распознанный текст и разбирает его на телефоне.
 Сама система (обычно Google) может обрабатывать звук на своих серверах по своим
-правилам; если это важно, не пользуйтесь кнопкой или включите в настройках телефона
-распознавание без интернета.
+правилам; если это важно, не пользуйтесь кнопкой или включите «Распознавать без
+интернета» (Настройки → Ввод без рук) и скачайте офлайн-пакет языка в настройках телефона.
+
+**Разбор фразы.** По умолчанию распознанный текст разбирается на телефоне. Если вы
+выберете «ИИ-помощник», текст фразы, названия ваших категорий и счетов, основная валюта
+и сегодняшняя дата отправляются ИИ-провайдеру, ключ которого вы указали. Операции,
+остатки и история в этот запрос не попадают.
+
+**Курсы криптовалют** запрашиваются у CoinGecko, Binance или Coinbase — только после
+того, как вы сами выберете источник; в запросе список монет, без сумм. Дальше курсы
+обновляются при запуске, если старше 6 часов, и раз в час, если включены уведомления о цене.
+
+**Наблюдение за криптокошельком** отправляет его публичный адрес в обозреватель блокчейна
+(TronGrid, toncenter, mempool.space, Blockscout). Ключи и секретная фраза не нужны и не
+запрашиваются; сохранить секретную фразу приложение не даёт даже в заметке.
 
 **Отчёт в PDF и выгрузка из других приложений.** PDF собирается на телефоне и уходит
 туда, куда вы сами отправите его через «Поделиться». Файлы CoinKeeper, Monefy и
@@ -120,8 +134,12 @@ Data leaves the phone only when you turn on a feature that needs it:
   OpenAI, Google, Sber GigaChat, Yandex YandexGPT or your own server). Your selected data,
   or the receipt photo with your category list, is sent to that provider and handled
   under its terms.
-- **Exchange rates** are requested from a central bank website when you tap the button;
-  the request contains none of your data.
+- **Exchange rates** are requested from a central bank website (Russia, Kazakhstan,
+  Uzbekistan or Turkey) when you tap the button; the request contains none of your data.
+- **Crypto prices** come from CoinGecko, Binance or Coinbase once you pick a source; the
+  request lists coins, never amounts. **Watching a crypto wallet** sends its public address
+  to a blockchain explorer (TronGrid, toncenter, mempool.space, Blockscout). Keys and seed
+  phrases are never needed or stored.
 - **Purchase check.** The app is paid and distributed through Google Play. On start it asks
   Google Play whether the app was purchased on this device. The request contains none of
   your financial data; payment and purchase data are handled by Google under its terms.
@@ -132,7 +150,8 @@ Data leaves the phone only when you turn on a feature that needs it:
 - **CSV export** is saved where you choose. **PDF reports** go wherever you share them.
 - **Voice input** uses the phone's system speech recognition. The app only receives the
   recognised text; the system (usually Google) may process the audio on its servers under
-  its own terms.
+  its own terms. If you choose the AI helper for parsing, the phrase, your category and
+  account names, main currency and today's date go to your AI provider — no operations or balances.
 
 Insights (payday forecast, weekly summary, spending spikes, subscription hints) are
 calculated on the phone. With the app lock or "hide amounts" on, notifications carry no
