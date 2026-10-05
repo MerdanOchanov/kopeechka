@@ -70,6 +70,11 @@
 в поле суммы и комиссия банка по карте, которая считается сама. Регулярные платежи с
 напоминанием, долги и модуль «Бизнес»: заказы, клиенты, прайс, выручка и маржа.
 
+**Склад для своего дела.** Закупка товара — не расход: деньги остаются в капитале на счёте
+«Товары». Выполненный заказ сам списывает товар по средней цене закупки, поэтому прибыль и
+маржа считаются точно и ничего не списывается дважды. Остаток и деньги в товаре видны по каждой
+позиции; для тех, кто уже ведёт дело, — ввод начальных остатков, а также списание брака.
+
 **Цели и имущество.** Копите на цель, а когда она осуществится — покупка попадёт в расходы
 своей категории, не съедая месячный лимит. Имущество: сколько вложено, сколько стоит сейчас,
 результат продажи и во что обходится владение в месяц; ипотеку или автокредит можно привязать.
@@ -115,6 +120,8 @@ future updates are part of the purchase.
   statement CSV and AI receipt photos, all landing in a review queue first.
 - A shared budget for two over Google Drive, WebDAV or directly over Wi-Fi.
 - Multi-currency wallets, a calculator in the amount field and automatic card bank fees.
+- Stock for a small business: a purchase isn't an expense, a completed order takes items at
+  average cost, opening stock for an existing business, write-offs.
 - Budgets, reports, goals that end in a real purchase, property with wear, loans and cost
   of ownership, debts, recurring payments and a small-business module.
 - Insights on the phone: will the money last until payday, where spending jumped, which
