@@ -85,6 +85,13 @@
 голосом, виджет на рабочий стол. Всё найденное сначала попадает на экран «На проверку» —
 в деньги ничего не пишется без вашего подтверждения.
 
+**Отчёты-дашборд.** «Обзор»: доходы, расходы, сальдо и норма сбережений к тем же дням
+прошлого периода, прогноз до конца месяца, лимиты под угрозой, что изменилось к обычному,
+доходы и расходы за год, главные получатели, комиссии банка, капитал, цели и долги. Любая
+цифра ведёт к операциям. Поиск и фильтры операций (период, счета, категории, сумма,
+комиссии), сохранённые фильтры, карточка счёта с выпиской, остатком после каждой операции
+и сверкой с банком, быстрые правки долгим нажатием.
+
 **Понимание.** Прогноз «до зарплаты», итоги недели, предупреждение о всплеске трат,
 капитал по месяцам, цели со сроком, ожидаемый доход против факта, месячные лимиты по
 категориям, отчёты за неделю, месяц, квартал и год со сравнением, ИИ-советник на ваших
@@ -122,6 +129,10 @@ future updates are part of the purchase.
 - Multi-currency wallets, a calculator in the amount field and automatic card bank fees.
 - Stock for a small business: a purchase isn't an expense, a completed order takes items at
   average cost, opening stock for an existing business, write-offs.
+- A reports dashboard: month-end forecast, limits at risk, what changed, a year of income and
+  expenses, top payees, bank fees. Every figure opens the matching entries.
+- Search and filters for entries, saved filters, an account card with a running-balance
+  statement and bank reconciliation, quick edits and multi-select on long press.
 - Budgets, reports, goals that end in a real purchase, property with wear, loans and cost
   of ownership, debts, recurring payments and a small-business module.
 - Insights on the phone: will the money last until payday, where spending jumped, which
