@@ -86,7 +86,8 @@
 в деньги ничего не пишется без вашего подтверждения.
 
 **Отчёты-дашборд.** «Обзор»: доходы, расходы, сальдо и норма сбережений к тем же дням
-прошлого периода, прогноз до конца месяца, лимиты под угрозой, что изменилось к обычному,
+прошлого периода, денежный поток от остатка на начало до остатка на конец, воронка заказов,
+прогноз до конца месяца, лимиты под угрозой, что изменилось к обычному,
 доходы и расходы за год, главные получатели, комиссии банка, капитал, цели и долги. Любая
 цифра ведёт к операциям. Поиск и фильтры операций (период, счета, категории, сумма,
 комиссии), сохранённые фильтры, карточка счёта с выпиской, остатком после каждой операции
@@ -129,8 +130,8 @@ future updates are part of the purchase.
 - Multi-currency wallets, a calculator in the amount field and automatic card bank fees.
 - Stock for a small business: a purchase isn't an expense, a completed order takes items at
   average cost, opening stock for an existing business, write-offs.
-- A reports dashboard: month-end forecast, limits at risk, what changed, a year of income and
-  expenses, top payees, bank fees. Every figure opens the matching entries.
+- A reports dashboard: cash flow, order funnel, month-end forecast, limits at risk, what changed,
+  income and expenses by category, top payees, bank fees. Every figure opens the matching entries.
 - Search and filters for entries, saved filters, an account card with a running-balance
   statement and bank reconciliation, quick edits and multi-select on long press.
 - Budgets, reports, goals that end in a real purchase, property with wear, loans and cost
