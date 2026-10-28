@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <title>Копеечка — демо</title>
+    <meta name="description" content="Демоверсия «Копеечки»: учёт личных и семейных финансов. Данные вымышленные, ничего не сохраняется.">
+    <style>
+        :root {
+            --bg: #f4f2ee;
+            --fg: #16181c;
+            --muted: #6b6b70;
+            --line: #d9d5cd;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #16181c;
+                --fg: #f0eee9;
+                --muted: #9a9a9f;
+                --line: #2c2f35;
+            }
+        }
+        * { box-sizing: border-box; }
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background: var(--bg);
+            color: var(--fg);
+            font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        .note {
+            flex: none;
+            padding: 10px 16px;
+            border-bottom: 1px solid var(--line);
+            font-size: 12.5px;
+            color: var(--muted);
+            text-align: center;
+        }
+        .note b { color: var(--fg); }
+        .note a { color: inherit; }
+        /* язык полоски — по языку браузера, как и язык самого приложения */
+        .note [data-l] { display: none; }
+        body[data-lang="ru"] .note [data-l="ru"],
+        body[data-lang="tk"] .note [data-l="tk"],
+        body[data-lang="tr"] .note [data-l="tr"],
+        body[data-lang="en"] .note [data-l="en"] { display: inline; }
+        /* телефонная рамка: интерфейс рассчитан на телефон, на широком экране растягивать его незачем */
+        #frame {
+            flex: 1 1 auto;
+            min-height: 0;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+        #kopeechka {
+            width: 100%;
+            max-width: 430px;
+            height: 100%;
+            border-left: 1px solid var(--line);
+            border-right: 1px solid var(--line);
+            background: var(--bg);
+        }
+        @media (max-width: 460px) {
+            #kopeechka { border: 0; }
+            .note { padding: 8px 16px; font-size: 12px; }
+        }
+        #loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: var(--muted);
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body data-lang="ru">
+    <div class="note">
+        <span data-l="ru"><b>Это демоверсия.</b> Суммы вымышленные, записи никуда не сохраняются — обновите страницу, и демо начнётся заново.</span>
+        <span data-l="tk"><b>Bu demo görnüşi.</b> Pullar oýlanyp tapylan, ýazgylar hiç ýere ýazylmaýar — sahypany täzeläň, demo täzeden başlar.</span>
+        <span data-l="tr"><b>Bu bir demo.</b> Tutarlar hayalidir, kayıtlar hiçbir yere saklanmaz — sayfayı yenileyin, demo baştan başlar.</span>
+        <span data-l="en"><b>This is a demo.</b> The amounts are made up and nothing is saved — reload the page and the demo starts over.</span>
+        <a href="https://play.google.com/store/apps/details?id=com.arassanusga.kopeechka">
+            <span data-l="ru">Приложение в Google Play</span><span data-l="tk">Google Play-de programma</span><span data-l="tr">Google Play'de uygulama</span><span data-l="en">The app on Google Play</span>
+        </a>
+    </div>
+    <div id="frame">
+        <div id="kopeechka"><div id="loading">…</div></div>
+    </div>
+    <script type="application/javascript">
+        (function () {
+            var l = (navigator.language || 'ru').slice(0, 2).toLowerCase();
+            if (l !== 'tk' && l !== 'tr' && l !== 'en') l = 'ru';
+            document.body.setAttribute('data-lang', l);
+            document.documentElement.lang = l;
+        })();
+    </script>
+    <script type="application/javascript" src="kopeechka.js"></script>
+</body>
+</html>

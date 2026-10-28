@@ -8,6 +8,8 @@
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.arassanusga.kopeechka"><b>▶ Google Play</b></a>
   &nbsp;·&nbsp;
+  <a href="https://merdanochanov.github.io/kopeechka/demo/"><b>Попробовать в браузере</b></a>
+  &nbsp;·&nbsp;
   <a href="PRIVACY.md">Политика конфиденциальности</a>
   &nbsp;·&nbsp;
   <a href="SUPPORT.md">Поддержка</a>
@@ -143,4 +145,5 @@ future updates are part of the purchase.
 - Six languages: Russian, English, Turkmen, Uzbek, Kazakh and Turkish.
 
 [Get it on Google Play](https://play.google.com/store/apps/details?id=com.arassanusga.kopeechka) ·
+[Try it in your browser](https://merdanochanov.github.io/kopeechka/demo/) ·
 [Privacy policy](PRIVACY.md#privacy-policy-english) · [Support](SUPPORT.md#english)
